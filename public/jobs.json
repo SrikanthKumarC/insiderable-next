@@ -1,0 +1,20 @@
+[
+  {
+    "slug":"appsc-jobs",
+    "title": "APPSC Jobs",
+    "salary": 12000,
+    "lastdate": "Jan 21 2022" 
+  },
+  {
+      "title": "Railway Jobs",
+      "salary": 20000,
+      "lastdate": "12 Jan 2022",
+      "eligibility": "10th or equivalent",
+      "apply" : "#",
+      "agelimit" : 30,
+      "category": "government"
+  },
+  {
+      "title": "This really works? bro"
+  }
+]
