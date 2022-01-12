@@ -44,7 +44,7 @@ const Job = ({ job }) => {
             <li>Vacancies: {singleJob.Vacancies}</li>
           </ul>
           <div>{<ReactMarkdown>{singleJob.Contents}</ReactMarkdown>}</div>
-          <a className="apply" href={singleJob.ApplyLink} target="_blank">
+          <a className="apply" href={singleJob.ApplyLink} rel="noreferrer" target="_blank">
             <BiLinkExternal />
             Apply
           </a>
