@@ -36,7 +36,7 @@ const Job = ({ job }) => {
       <Header />
       <Head>
         <title>{singleJob.Title}</title>
-        <meta name='description' content={singleJob.content}/>
+        <meta name='description' content={singleJob.Contents}/>
       </Head>
       {/* <status-indicator negative pulse  /> */}
       <div className="jobs">

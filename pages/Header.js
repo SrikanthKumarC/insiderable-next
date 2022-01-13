@@ -8,7 +8,7 @@ const Header = () => {
   const classLi = state ? 'menu active' : 'menu'
   return (
     <div className="header">
-      <h1>Insiderable</h1>
+      <h1>Insiderable<span>beta</span></h1>
       <a href="#" className="toggle-button" onClick={handleToggle}>
         <span className="bar"></span>
         <span className="bar"></span>

@@ -144,3 +144,12 @@ svg {
     display: flex;
   }
 }
+
+.header h1 span {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccf6e4;
+  color: #00864e;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 8px;
+}
