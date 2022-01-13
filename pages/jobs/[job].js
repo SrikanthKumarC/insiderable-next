@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import { BiLinkExternal } from "react-icons/bi";
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:1337/api/jobs");
+  const res = await fetch("https://enigmatic-shelf-44944.herokuapp.com/api/jobs");
   const data = await res.json();
   const paths = data.data.map((job) => {
     return {
@@ -16,7 +16,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const slug = context.params.job;
   const res = await fetch(
-    "http://localhost:1337/api/jobs?filters[Slug]=" + slug
+    "https://enigmatic-shelf-44944.herokuapp.com/api/jobs?filters[Slug]=" + slug
   );
   const data = await res.json();
 

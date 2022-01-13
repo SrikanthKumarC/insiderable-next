@@ -44,7 +44,9 @@ export async function getServerSideProps() {
     day: "numeric",
   });
 
-  const res = await fetch("http://localhost:1337/api/jobs");
+  const res = await fetch(
+    "https://enigmatic-shelf-44944.herokuapp.com/api/jobs"
+  );
   const data = await res.json();
 
   return {
