@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import ReactMarkdown from "react-markdown";
 import { BiLinkExternal } from "react-icons/bi";
 export const getStaticPaths = async () => {
@@ -33,6 +34,10 @@ const Job = ({ job }) => {
   return (
     <>
       <Header />
+      <Head>
+        <title>{singleJob.Title}</title>
+        <meta name='description'>{singleJob.content}</meta>
+      </Head>
       {/* <status-indicator negative pulse  /> */}
       <div className="jobs">
         <h1>{singleJob.Title}</h1>
