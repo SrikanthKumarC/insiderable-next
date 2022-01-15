@@ -36,7 +36,7 @@ const jobs = ({ date, jobs }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const d = new Date().toLocaleDateString("en-US", {
     weekday: "long",
     year: "numeric",
