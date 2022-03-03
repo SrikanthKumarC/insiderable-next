@@ -1,12 +1,12 @@
 @import 'status-indicator';
-@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
-    font-family: 'Rammetto One', cursive;
+    font-family: 'Source Serif Pro', serif;
 }
 .text-center {
   text-align: center;
